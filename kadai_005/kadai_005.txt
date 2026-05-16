@@ -1,0 +1,16 @@
+  144  echo "Hello, world >> hello_world.txt\necho "Hello, world\!" >> hello_world.tx\n
+  145  printf 'Hello, world!\n' >> hello_world.txt
+  146  cat hello_world.txt
+  147  git add hello_world.txt
+  148  git commit -m '1回目のコミット'
+  149  printf 'こんにちは、世界！\n' >> hello_world.txt
+  150  cat hello_world.txt
+  151  git add hello_world.txt
+  152  git commit -m '2回目のコミット'
+  153  git log --oneline
+  154  cd ~/Desktop
+  155  mkdir kadai_005
+  156  ls
+  157  cd ~/Desktop/kadai_005
+  158  touch kadai_005.txt
+  159  ls
